@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Practice</title>
+</head>
+
+<body>
+  <main class="content-wrapper flex-container">
+    <!-- BACKGROUND IMAGE  -->
+    <div class="background-img flex-item">
+      <img src="./img/Grupo 9590.png" alt="hello text" class="hello-text">
+    </div>
+    <!-- FORM SECTION  -->
+    <section class="form-section flex-item">
+      <div class="form-content-wrapper">
+        <div class="form-header">
+          <!-- LOGO  -->
+          <img src="./img/dribbble-ball-icon.png" alt="logo" class="logo">
+          <div class="text-content-wrapper">
+            <h1 class="form-section-title">Join our community!</h1>
+            <p class="login">Already have an account? <a href="#" class="login-link">Login</a></p>
+          </div>
+          <!-- FACEBOOK BUTTON  -->
+          <a class="join-facebook-button" href="#"> <img src="./img/facebook (9).png" alt="facebook logo" class="fb-logo">
+            Join via
+            facebook</a>
+        </div>
+        <!-- INPUTS  -->
+        <fieldset class="form-content">
+          <legend>Personal info</legend>
+          <form class="inputs-content-wrapper" action="post">
+            <!-- FIRST NAME  -->
+            <div class="input-item">
+              <label class="label-text" for="first-name">First name <img src="./img/ic_sentiment_satisfied_24px.png"
+                  alt="smiling face icon" class="green-face-icon"></label>
+              <input class="input" required type="text" name="first-name" value="Jon" id="first-name">
+            </div>
+            <!-- LAST NAME  -->
+            <div class="input-item">
+              <label class="label-text" for="last-name">Last name <img src="./img/ic_sentiment_satisfied_24px.png"
+                  alt="smiling face icon" class="green-face-icon"></label>
+              <input class="input" required type="text" name="last-name" value="Smith" id="last-name">
+            </div>
+            <!-- EMAIL  -->
+            <div class="input-item">
+              <label class="label-text" for="email">Email Addres<img src="./img/ic_sentiment_satisfied_24px.png"
+                  alt="smiling face icon" class="green-face-icon"></label>
+              <input class="input" required type="email" name="email-addres" id="email-addres"
+                value="jonsmith@gmail.com">
+            </div>
+            <!-- PASSWORD  -->
+            <div class="input-item">
+              <label class="label-text" for="password">Password <span class="invalid-form-msg">(Hey you forgot to create
+                  the password)</span> <img src="./img/ic_sentiment_dissatisfied_24px.png" alt="smiling face icon"
+                  class="green-face-icon"></label>
+              <input class="input" required type="password" name="password" id="password">
+            </div>
+            <!-- SUBMIT BUTTON  -->
+            <input class="input" type="submit" value="Join our community">
+          </form>
+        </fieldset>
+        <!-- FORM FOOTER  -->
+        <div class="form-footer">
+          <p class="form-footer__text">By joining, you agree to the <strong class="bold-text">Terms</strong> and <strong
+              class="bold-text">Privacy Policy</strong></p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
