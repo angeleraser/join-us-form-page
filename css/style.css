@@ -128,9 +128,10 @@ fieldset {
 
 .input {
   height: 38px;
-  border-color: rgb(230, 230, 230);
+  border-color: #DDDEDE;
+  border-width: 1px;
+  border-style: solid;
   color: #000;
-  border-width: .8px;
   background-color: #FCFCFC;
   border-radius: 3px;
   text-indent: 10px;
