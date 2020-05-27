@@ -32,6 +32,8 @@ fieldset {
   display: flex;
   background-position: center;
   background-image: url('../img/daniel-plan-1123199-unsplash\ \(1\).png');
+  background-repeat: initial;
+  background-size: cover;
   position: relative;
 }
 
@@ -50,6 +52,8 @@ fieldset {
 }
 
 .form-content-wrapper {
+  margin: 0 100px;
+  min-width: 480px;
   width: 60%;
 }
 
@@ -157,7 +161,7 @@ fieldset {
   margin-left: -20%;
 }
 
-input[type=submit] {
+.form-button{
   background-color: #50D282;
   color: #FFFFFF;
   cursor: pointer;
